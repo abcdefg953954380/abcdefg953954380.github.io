@@ -1,17 +1,17 @@
 function informacje()
 {
-    var extraInfo = document.getElementById("extraInfo")
-    var button = document.getElementById("moreInfoBtn")
+    var extraInfo = document.getElementById("infowiecej")
+    var button = document.getElementById("wiecejinfo")
 
-    if (extraInfo.style.display === "none")
+    if (infowiecej.style.display === "none")
     {
-        extraInfo.style.display = "block";
+        infowiecej.style.display = "block";
         button.textContent = "Ukryj informacje"; 
     }
 
     else
     {
-        extraInfo.style.display = "none";
+        infowiecej.style.display = "none";
         button.textContent = "Więcej informacji;"
     }
 }
